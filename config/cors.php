@@ -19,7 +19,8 @@ return [
 
     'allowed_methods' => ['*'],
 
-    'allowed_origins' => ['*'],
+    'allowed_origins' => [    'http://localhost:3000',
+'https://portfolio-two-ebon-30.vercel.app'],
 
     'allowed_origins_patterns' => [],
 
