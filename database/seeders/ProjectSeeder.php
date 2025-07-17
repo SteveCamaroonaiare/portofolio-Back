@@ -16,7 +16,7 @@ class ProjectSeeder extends Seeder
          'image' => 'storage/images/A1.jpg',
             'technologies' => json_encode(['React', 'Laravel']),
             'category' => 'E-commerce',
-            'live_url' => 'http://localhost:5173/',
+            'live_url' => 'https://mon-site-ecommerce-puce.vercel.app/',
             'github_url' => 'https://github.com/SteveCamaroonaiare/Mon-site-ecommerce/tree/master/src',
             'created_at' => now(),
         ],
@@ -26,7 +26,7 @@ class ProjectSeeder extends Seeder
             'image' => 'storage/images/A2.jpg',
             'technologies' => json_encode(['javascript', 'html', 'css']),
             'category' => 'Site vitrine',
-            'live_url' => 'https://steve.dev',
+            'live_url' => 'https://stagesteve.vercel.app/',
             'github_url' => 'https://github.com/steve/portfolio',
             'created_at' => now(),
         ]
