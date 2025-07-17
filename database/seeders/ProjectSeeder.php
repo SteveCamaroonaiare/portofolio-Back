@@ -13,7 +13,7 @@ class ProjectSeeder extends Seeder
         [
             'title' => 'E-commerce Chaussures',
             'description' => 'Site de vente en ligne moderne.',
-         'image' => 'storage/images/A1.jpg',
+         'image' => 'images/A1.jpg',
             'technologies' => json_encode(['React', 'Laravel']),
             'category' => 'E-commerce',
             'live_url' => 'https://mon-site-ecommerce-puce.vercel.app/',
@@ -23,7 +23,7 @@ class ProjectSeeder extends Seeder
         [
             'title' => 'Salon soin de visage',
             'description' => 'site de presentation des services dun salon de beauté.',
-            'image' => 'storage/images/A2.jpg',
+            'image' => 'images/A2.jpg',
             'technologies' => json_encode(['javascript', 'html', 'css']),
             'category' => 'Site vitrine',
             'live_url' => 'https://stagesteve.vercel.app/',
